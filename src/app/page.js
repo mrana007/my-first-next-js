@@ -8,6 +8,9 @@ const HomePage = () => {
     <div>
       <h1>This is Home Page</h1>
       <Counter />
+      <Link href="/">
+        <button className="btn btn-accent">Home</button>
+      </Link>
       <Link href="/about">
         <button className="btn btn-accent">About</button>
       </Link>
